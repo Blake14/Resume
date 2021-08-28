@@ -1,0 +1,18 @@
+.titles {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+
+.skills {
+  padding-top: 5%;
+  font-size: 12px;
+}
+
+.summary {
+  text-align: left;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  color:rgb(60, 79, 110);
+  font-size: 12px;
+}
