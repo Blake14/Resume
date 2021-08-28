@@ -4,9 +4,9 @@ import { Container, ListGroup, Col, Row} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 
 const Skills = () => (
-<div className="skills">
-<h3>Skills</h3>
 <div>
+<h3 className="titles">Skills</h3>
+<div className="skills">
     <Container>
      <ListGroup variant="flush">
          <Row>
