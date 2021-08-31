@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 function Skill(props){
 
     return (
-        <ListGroup>{props.desc}</ListGroup>
+        <ListGroup.Item>{props.desc}</ListGroup.Item>
     )
  }
  
@@ -37,9 +37,9 @@ function Skill(props){
    return (
        <Container className="skills">
                 <h3 className="titles">Skills</h3>
-                <Col className="skillSet">
+                <ListGroup className="skillSet">
                     {skills.map((skill)=><Skill desc={skill.desc} />)}
-                </Col>
+                </ListGroup>
         </Container>
    )
  }
