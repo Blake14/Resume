@@ -5,8 +5,15 @@
 
 
 .skills {
-  padding-top: 5%;
   font-size: 12px;
+  text-align: center;
+}
+
+.skillSet {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25%;
 }
 
 .summary {
