@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Container, ListGroup, Col} from 'react-bootstrap';
+import { Container, ListGroup} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 
 
