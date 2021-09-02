@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Container, ListGroup, Col} from 'react-bootstrap';
+import { Container, ListGroup} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 
 
@@ -38,9 +38,12 @@ function Skill(props){
        <Container className="skills">
                 <h3 className="titles">Skills</h3>
                 <ListGroup className="skillSet">
-                {skills.filter(function (skills) {
+                {
+                skills.filter(function (skills) {
                         return skills.category === "Technology";
-                        }).map((skill)=><Skill desc={skill.desc} category={skill.category}/>)}
+                        }).map((skill)=><Skill desc={skill.desc} category={skill.category}/>)
+
+                }
                 </ListGroup>
         </Container>
    )
